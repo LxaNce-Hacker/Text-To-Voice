@@ -5,7 +5,7 @@ from gtts import gTTS
 
 # import Os module to start the audio file
 import os
-
+a=input("Enter Anything :")
 # Language we want to use
 language = 'en'
 
