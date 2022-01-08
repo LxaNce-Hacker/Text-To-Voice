@@ -9,8 +9,8 @@ C=2
 while(C!=1) :
     C=C+1
     a=input("Enter Anything : ")
-    # Language we want to use 
-    language = input("For English Enter en , For Hindi Enter hi : ")
+    # Language to use 
+    language = input("For English Enter = en \nFor Hindi Enter = hi \nEnter : ")
     myobj = gTTS(text=a, lang=language, slow=False) 
     myobj.save("output.mp3") 
     # Play the converted file 
