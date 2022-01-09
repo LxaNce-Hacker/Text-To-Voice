@@ -15,4 +15,4 @@ while(C!=1) :
     myobj.save("output.mp3") 
     # Play the converted file 
     os.system("mpv output.mp3")
-    #We use can also use 'play' in place of mpv.
+    #We can also use 'play' in place of mpv.
