@@ -48,32 +48,32 @@ import os
 
 #For Hindi
 def hindi():
-   try:
-       C=2
-        while(C!=1) :
-            C=C+1
-            a=input(ask + W + "Enter Anything "+ G + "> " + W)
-            # Language to use 
-            # language = input("For English Enter = en \nFor Hindi Enter = hi \nEnter : ")
-            myobj = gTTS(text=a, lang=hi, slow=False) 
-            myobj.save("output.mp3") 
-            # Play the converted file 
-            os.system("mpv output.mp3")
-            #We can also use 'play' in place of mpv.
+     try:
+          C=2
+          while(C!=1) :
+               C=C+1
+               a=input(ask + W + "Enter Anything "+ G + "> " + W)
+               # Language to use
+               # language = input("For English Enter = en \nFor Hindi Enter = hi \nEnter : ")
+               myobj = gTTS(text=a, lang=hi, slow=False)
+               myobj.save("output.mp3")
+               # Play the converted file
+               os.system("mpv output.mp3")
+               #We can also use 'play' in place of mpv.
 #For English
 def english():
-   try:
-        C=2
-        while(C!=1) :
-            C=C+1
-            a=input(ask + W + "Enter Anything "+ G + "> " + W)
-            # Language to use 
-            # language = input("For English Enter = en \nFor Hindi Enter = hi \nEnter : ")
-            myobj = gTTS(text=a, lang=en, slow=False) 
-            myobj.save("output.mp3") 
-            # Play the converted file 
-            os.system("mpv output.mp3")
-            #We can also use 'play' in place of mpv.
+     try:
+          C=2
+          while(C!=1) :
+               C=C+1
+               a=input(ask + W + "Enter Anything "+ G + "> " + W)
+               # Language to use 
+               # language = input("For English Enter = en \nFor Hindi Enter = hi \nEnter : ")
+               myobj = gTTS(text=a, lang=en, slow=False)
+               myobj.save("output.mp3")
+               # Play the converted file 
+               os.system("mpv output.mp3")
+               #We can also use 'play' in place of mpv.
             
 # Choose language            
 takok = raw_input(W + "Choose" + G + " > ")
