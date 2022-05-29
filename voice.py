@@ -47,7 +47,7 @@ print banner2
 import os 
 
 #For Hindi
-def hindi():
+def dekrip():
      try:
           C=2
           while(C!=1) :
@@ -61,7 +61,7 @@ def hindi():
                os.system("mpv output.mp3")
                #We can also use 'play' in place of mpv.
 #For English
-def english():
+def enkrip():
      try:
           C=2
           while(C!=1) :
@@ -79,8 +79,8 @@ def english():
 takok = raw_input(W + "Choose" + G + " > ")
 
 if takok == "1" or takok == "01":
-   english()
+   enkrip()
 elif takok == "2" or takok == "02":
-   hindi()
+   dekrip()
 else:
    print (eror + " Wrong input")
